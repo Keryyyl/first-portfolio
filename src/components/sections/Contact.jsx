@@ -24,7 +24,7 @@ export const Contact = () => {
         setFormData({ name: "", email: "", message: "" });
       })
       .catch(() => alert("Oops! Something went wrong. Please try again."));
-  };
+    };
 
   return (
     <section
