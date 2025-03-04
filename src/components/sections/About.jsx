@@ -2,8 +2,8 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const frontendSkills = ["React", "Vue", "TypeScript", "TailWindCSS", "Svelte"];
-    const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+    const frontendSkills = ["JavaScript", "React", "Tailwind", "TailWindCSS",];
+    const backendSkills = ["Node.js", "Python", "PHP", "C#",];
 
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
@@ -14,8 +14,8 @@ export const About = () => {
                 </h2>
 
                 <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
-                    <p className="text-gray-300">
-                        Passionate developer with expertiese in building scalable web aplications and creating innovative solutions.
+                    <p className="text-gray-300 ml-5">
+                        I'm an 18 years old polish high schooler at the starting point of an exciting journey of <span>programming</span>.
                     </p>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -23,7 +23,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Frontend</h3>
                             <div className="flex flex-wrap gap-2">
                                 {frontendSkills.map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm 
+                                    <span key={key} className="bg-blue-500/10 cursor-pointer text-blue-500 py-1 px-3 rounded-full text-sm 
                                     hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                                         {tech}
                                     </span>
@@ -35,7 +35,7 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Backend</h3>
                             <div className="flex flex-wrap gap-2">
                                 {backendSkills.map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm 
+                                    <span key={key} className="bg-blue-500/10 cursor-pointer text-blue-500 py-1 px-3 rounded-full text-sm 
                                     hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition">
                                         {tech}
                                     </span>
@@ -50,10 +50,10 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
-                                <strong> B.S. in Computer Science </strong> - XYZ University (2016-2020)
+                                <strong> High School</strong> - Technikum Kinematograficzno-Komputerowe im. Krzysztofa Kieślowskiego (2021-2026)
                             </li>
                             <li>
-                                Relevant Coursework: Data Structures, Web Development, Cloud Computing...
+                                <strong>Relevant Coursework: </strong>SEP G1,
                             </li>
                         </ul>
                     </div>
@@ -61,15 +61,16 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4 className="font-semibold"> Software Engineer at ABC Corp (2020 - Present)</h4>
+                                <h4 className="font-semibold"> FrontEnd Developer for <br/>"Fundacja Promocji m.st. Warszawy" Internship (02.2024 - 03.2024)</h4>
                                 <p>
-                                    Developed and maintained microservices for cloud-based applications.
+
+                                    Developed new features on the site in PHP WordPress.
                                 </p>
                             </div>
                             <div>
-                                <h4 className="font-semibold"> Intern at DEF Startups (2019)</h4>
+                                <h4 className="font-semibold"> QA for PlayWay <br/>Internship (11.2024-12.2024)</h4>
                                 <p>
-                                    Assisted in building front-end components and integration REST APIs
+                                    Tested games in many aspects such as optimization, bugs, and such.
                                 </p>
                             </div>
                         </div>
