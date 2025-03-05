@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --color-blackback: #212121;
+  --color-mainone: #323232;
+  --color-maintwo: #0D7377;
+  --color-mainthree: #14FFEC;
+}
+
+
 html,
 body {
   margin: 0;
